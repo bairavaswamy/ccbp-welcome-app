@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Bree Serif';
+}
+
+.container {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 50px;
+  color: #f0bb03;
+  margin-bottom: 20px;
+}
+
+.para {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0 0 15px 0;
+}
+
+.btn {
+  border: 0px;
+  color: #1e293b;
+  background-color: #ffffff;
+  min-height: 30px;
+  min-width: 130px;
+  font-size: 19px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 40px;
+    color: #f0bb03;
+    margin-bottom: 20px;
+  }
+  .para {
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+  }
+
+  .btn {
+    border: 0px;
+    color: #1e293b;
+    background-color: #ffffff;
+    min-height: 20px;
+    min-width: 100px;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+}
